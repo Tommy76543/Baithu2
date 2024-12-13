@@ -6,7 +6,7 @@ const AboutUs  = () => {
       <div className="column left"></div> {/* Left column (empty) */}
       
       <div className="column center">
-        <h1>About Chic Lighting & Design</h1>
+        <h1>About Chic Lighting & designnn</h1>
         <p>Established in 1971, Chic Lighting & Design has been a trusted name in the lighting industry for over five decades. Our journey began with a simple yet ambitious vision: to offer an unparalleled range of lighting solutions that cater to diverse styles and preferences. Over the years, we have grown into a leading retailer of distinctive lighting and accessories, earning a reputation for excellence in both product quality and customer service.</p>
 
         <p>At Chic Lighting & Design, we pride ourselves on offering a vast selection of lighting options that blend timeless elegance with contemporary innovation. Whether you’re seeking the classic allure of traditional designs or the sleek sophistication of modern aesthetics, our carefully curated collections cater to every taste and interior style. From luxurious crystal chandeliers to minimalist industrial pendant lights, we provide lighting solutions that enhance the ambiance of any space.</p>

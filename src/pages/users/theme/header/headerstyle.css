@@ -36,6 +36,7 @@
     border-radius: 5px;
 }
 
+
 .user-actions a {
     margin-left: 20px;
     text-decoration: none;
@@ -131,13 +132,21 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column; /* Đặt các phần tử theo chiều dọc */
+        align-items: flex-start; /* Căn trái các phần tử trong container */
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center; 
+        width: 100%; 
+        margin-bottom: 10px; 
     }
 
     .search-bar input {
         width: 100%;
         margin-top: 10px;
+        
     }
 
     .user-actions a {
@@ -171,13 +180,15 @@
     }
 
     /* Hamburger Menu */
-    .hamburger-menu {
-        display: block;
+     .hamburger-menu {
+        display: block; /* Hiển thị hamburger menu */
         cursor: pointer;
         font-size: 24px;
-        margin-left: auto;
+        margin-left: 10px; /* Khoảng cách bên trái */
         padding: 15px;
+        align-self: flex-start; /* Căn trái hamburger menu */
     }
+
 
     /* Show menu when the 'active' class is added */
     .nav-bar.active .ulFa {

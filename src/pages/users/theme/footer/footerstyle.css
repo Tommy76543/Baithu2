@@ -34,6 +34,22 @@
   min-width: 20px;
   margin-bottom: 20px;
 }
+.header-with-icons {
+  display: flex; /* Sử dụng flexbox để h4 và icon nằm trên cùng một dòng */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: space-between; /* Đẩy h4 sang trái và icon sang phải (nếu cần) */
+}
+
+.social-icons {
+  display: flex; /* Đặt các icon theo hàng ngang */
+  gap: 10px; /* Khoảng cách giữa các hình ảnh */
+}
+
+.social-icons img {
+  width: 24px; /* Đặt chiều rộng của hình ảnh */
+  height: 24px; /* Đặt chiều cao của hình ảnh */
+  object-fit: contain; /* Đảm bảo không bị bể hình */
+}
 
 .footer-subscription h4 {
   font-size: 16px;
@@ -43,24 +59,28 @@
 
 .subscription-form {
   display: flex;
+  align-items: center;
 }
 
 .email-input {
-  flex: 1;
+  flex: 1; /* Tắt linh hoạt để input không chiếm toàn bộ không gian */
+  width: 300px; /* Đặt chiều rộng cố định */
+  max-width: 50%; /* Đảm bảo responsive khi ở các màn hình nhỏ */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-right: 10px;
+  margin-right: 10px; /* Khoảng cách giữa input và button */
 }
 
 .subscribe-button {
-  padding: 10px 20px;
+  padding: 8px 16px; /* Thu nhỏ padding */
   background-color: #333;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
+
 
 .footer-links {
   display: flex;
@@ -74,16 +94,30 @@
   min-width: 200px;
   margin-bottom: 20px;
 }
+.map-container {
+  border: 1px solid black; /* Đặt màu và độ dày của khung */
+  border-radius: 8px; /* Thêm bo góc cho khung */
+  overflow: hidden; /* Đảm bảo không có phần nào của iframe bị tràn ra ngoài */
+  margin-top: 10px; /* Thêm khoảng cách trên khung */
+}
+.footer-column iframe {
+  width: 100%; /* Đặt chiều rộng của iframe chiếm toàn bộ chiều rộng của cột */
+  height: 200px; /* Đặt chiều cao của iframe */
+  border: none; /* Bỏ viền */
+  margin-top: 10px; /* Thêm khoảng cách trên iframe */
+}
 
 .footer-column h4 {
   font-size: 16px;
   font-weight: bold;
   color: #333;
+  margin-left: 10px;
 }
 
 .footer-column ul {
   list-style: none;
   padding: 0;
+  padding-left: 10px;
 }
 
 .footer-column li {

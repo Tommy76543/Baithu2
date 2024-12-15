@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import products from "./ProductList.json"; // Thêm đúng đường dẫn đến tệp JSON
 import "./Productstyle.css";
 
@@ -6,6 +7,7 @@ const SlList = () => {
   const [sortOption, setSortOption] = useState("default");
   const [selectedColor, setSelectedColor] = useState("all");
   const [priceRange, setPriceRange] = useState([0, 1000]);
+  const navigate = useNavigate(); // Khởi tạo useNavigate
 
   // Lọc sản phẩm theo màu sắc, giá và category
   const filteredProducts = products.filter((product) => {
@@ -45,15 +47,20 @@ const SlList = () => {
   const handleColorClick = (color) => {
     // Nếu màu sắc đã được chọn, sẽ reset về "all"
     if (selectedColor === color) {
-      setSelectedColor("all");
+      setSelectedColor("all"); // Reset lại về "all"
     } else {
       setSelectedColor(color);
     }
   };
 
+  // Hàm xử lý khi người dùng nhấp vào nút sản phẩm
+  const handleProductClick = (productLink) => {
+    navigate(`/products/${productLink}`); // Điều hướng đến trang sản phẩm
+  };
+
   return (
     <div>
-      <section className="head-body">Smart Lights</section>
+      <section className="head-body">Smart Light</section>
       <hr align="center" width="10%" color="#c9a22e" />
       <div className="spl-list-container">
         <div className="filters">
@@ -107,28 +114,29 @@ const SlList = () => {
 
         <div className="product-list">
           {sortedProducts.map((product, index) => (
-            <div className="product-item" key={index}>
-              <a href={product.productLink}>
+              <div className="product-item">
+                 <button  key={index} onClick={() => handleProductClick(product.productLink)} >
                 <img src={product.image} alt={product.name} />
-              </a>
-              <h3 className="product-name">{product.name}</h3>
+                <h3 className="product-name">{product.name}</h3>
 
-              {/* Hiển thị các màu sắc của sản phẩm */}
-              <div className="product-colors">
-                {product.color.map((color, i) => (
-                  <div
-                    key={i}
-                    className="color-dot"
-                    style={{
-                      backgroundColor: color.style.backgroundColor,
-                      border: color.style.border,
-                    }}
-                    title={color.value}
-                  ></div>
-                ))}
+                {/* Hiển thị các màu sắc của sản phẩm */}
+                <div className="product-colors">
+                  {product.color.map((color, i) => (
+                    <div
+                      key={i}
+                      className="color-dot"
+                      style={{
+                        backgroundColor: color.style.backgroundColor,
+                        border: color.style.border,
+                      }}
+                      title={color.value}
+                    ></div>
+                  ))}
+                </div>
+                <p className="product-price">${product.price.toFixed(2)}</p>
+                </button>
               </div>
-              <p className="product-price">${product.price.toFixed(2)}</p>
-            </div>
+            
           ))}
         </div>
       </div>

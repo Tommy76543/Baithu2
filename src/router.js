@@ -8,6 +8,7 @@ import SlList from "./component/SlList";
 import SplList from "./component/SplList";
 import DlList from "./component//DlList";
 import AboutUsCopy from "./pages/users/About-us copy";
+import ProductDetail from "./component/PageProduct";
 
 const renderUserRouter =()=> {
     const userRouter =[
@@ -36,6 +37,10 @@ const renderUserRouter =()=> {
         {
             path: ROUTERS.USER.ABOUTUSCOPY,
             component: <AboutUsCopy/>,
+        },
+        {
+            path: ROUTERS.USER. PAGEPRODUCT,
+            component: <ProductDetail/>,
         },
     ]
     return(

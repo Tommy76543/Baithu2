@@ -1,7 +1,7 @@
 [
   {
     "name": "LED COB Ceiling Light Picture Spotlight Focus Lamp Adjustable Bedroom Lighting",
-    "image": "https://i.ebayimg.com/images/g/DkMAAOSwBxhnNwaj/s-l1600.webp",
+    "image": ["",""],
     "color": [
       {
         "value": "White",
@@ -19,11 +19,11 @@
       }
     ],
     "price": 40.19,
-    "productLink": "https://www.ebay.com/itm/132039965941?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D276807%2C277737%26meid%3Daf33a8ed728843ee8cf3c6b42f04407f%26pid%3D101224%26rk%3D1%26rkt%3D5%26sd%3D196089835170%26itm%3D132039965941%26pmt%3D1%26noa%3D0%26pg%3D2332490%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall&_trksid=p2332490.c101224.m-1&itmprp=cksum%3A132039965941af33a8ed728843ee8cf3c6b42f04407f%7Cenc%3AAQAJAAABIFBRV3XPO4vjSjt41baQ6JJepvcRBSDR4z1drD8BzA6QgL4ueEp%252B3AJpsZMXAJz7IRjeeLd17GJCDzpY663fIUSKq%252BDrpM28JbXZ5k%252BpW00jCe%252BskIPdzzh3ZZP6RlufH9srIVNOmHLsFcLpRgMJKW6wTgnqmCEaX5NlCo6lwqvO2dEhcaluCqZScrq01uv8JBVyTHpxzJGt0TBR2r3alXoyaNHYRvCFqXJlZ2PuFDsPIcKIwVW%252F8FjUS2uHR%252ByO7Adv7XEGm9e5DxLECZYytjjfxh9xSTV3hswT1Z8ZAeOb6NAttFBX28rpy%252BhY%252Fb5Zjf5Dx%252FYOBZe6vZ8yyNQe1vDPL8Yb0%252Bpti7xKYUkYJ6IAgsG11cEhxard7Ce3v0MqpA%253D%253D%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01JEX8YHHGKD9J6DEDYHY9HS7M",
-    "category": "Spl"
-    
+    "productLink": "1",
+    "category": "Spl",
+    "description": "An adjustable LED COB ceiling light that provides focused lighting, ideal for bedrooms or art displays."
   },
-
+  
   {
     "name": "Endon G3223515 Torsion Indoor LED Spot Light Square",
     "image": "https://www.lights2go.co.uk/images/endon-g3223515-torsion-indoor-led-spot-light-square-p18759-22215_medium.jpg",
@@ -44,8 +44,9 @@
       }
     ],
     "price": 61.18,
-    "productLink": "https://www.lights2go.co.uk/shop-by-product-c34/spotlights-c3/endon-g3223515-torsion-indoor-led-spot-light-square-p18759",
-     "category": "Spl"
+    "productLink": "2",
+    "category": "Spl",
+    "description": "A square indoor LED spot light that provides a modern and stylish lighting solution for any room."
   },
 
   {
@@ -59,17 +60,12 @@
           "border": "1px solid #ccc"
         }
       }
-      
     ],
     "price": 7.00,
-    "productLink": "https://www.shadesoflight.com/products/slim-spotlight-led-swing-arm-sconce?color=Antique%20Brass",
-    "category": "Spl"
-    
+    "productLink": "3",
+    "category": "Spl",
+    "description": "A sleek and stylish LED swing arm sconce, perfect for providing adjustable focused lighting."
   },
-
-
-
-
 
   {
     "name": "8.5 Watt Vintage Filament Medium Base LED Bulb ST18",
@@ -91,8 +87,9 @@
       }
     ],
     "price": 14.00,
-    "productLink": "https://example.com/products/st18",
-    "category": "Sl"
+    "productLink": "4",
+    "category": "Sl",
+    "description": "A vintage-style LED filament bulb with a medium base, offering an energy-efficient and classic look."
   },
 
   {
@@ -115,9 +112,11 @@
       }
     ],
     "price": 6.00,
-    "productLink": "https://example.com/products/e12",
-    "category": "Sl"
+    "productLink": "5",
+    "category": "Sl",
+    "description": "A 4-watt E12 candelabra base LED bulb that delivers energy-efficient lighting with a warm glow."
   },
+
   {
     "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
     "image": "https://example.com/images/g25.jpg",
@@ -138,8 +137,11 @@
       }
     ],
     "price": 7.00,
-    "productLink": "https://example.com/products/g25"
+    "productLink": "6",
+    "category": "Sl",
+    "description": "A clear LED globe bulb with medium base, offering a soft and clear illumination ideal for various settings."
   },
+
   {
     "name": "8.5 Watt Vintage Filament Medium Base LED Bulb ST18",
     "image": "https://example.com/images/st18.jpg",
@@ -160,12 +162,10 @@
       }
     ],
     "price": 14.00,
-    "productLink": "https://example.com/products/st18",
-    "category": "Sl"
+    "productLink": "7",
+    "category": "Sl",
+    "description": "A stylish vintage filament LED bulb that provides a warm and inviting glow with modern efficiency."
   },
-
-
-
 
   {
     "name": "4 Watt E12 Candelabra Base LED Bulb",
@@ -187,9 +187,11 @@
       }
     ],
     "price": 6.00,
-    "productLink": "https://example.com/products/e12",
-    "category": "Dl"
+    "productLink": "8",
+    "category": "Dl",
+    "description": "A compact 4-watt LED bulb with a candelabra base, ideal for decorative fixtures requiring energy-efficient lighting."
   },
+
   {
     "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
     "image": "https://example.com/images/g25.jpg",
@@ -210,9 +212,11 @@
       }
     ],
     "price": 7.00,
-    "productLink": "https://example.com/products/g25",
-    "category": "Dl"
+    "productLink": "9",
+    "category": "Dl",
+    "description": "Clear LED globe bulb that provides a clean and soft lighting effect with energy-efficient performance."
   },
+
   {
     "name": "No",
     "image": "https://example.com/images/st18.jpg",
@@ -233,9 +237,11 @@
       }
     ],
     "price": 14.00,
-    "productLink": "https://example.com/products/st18",
-    "category": "Dl"
+    "productLink": "10",
+    "category": "Dl",
+    "description": "A unique lighting option with a vintage filament design, perfect for stylish interiors."
   },
+
   {
     "name": "4 Watt E12 Candelabra Base LED Bulb",
     "image": "https://example.com/images/e12.jpg",
@@ -256,9 +262,11 @@
       }
     ],
     "price": 6.00,
-    "productLink": "https://example.com/products/e12",
-    "category": "Dl"
+    "productLink": "11",
+    "category": "Dl",
+    "description": "A 4-watt LED bulb with a candelabra base, providing energy-efficient lighting with a traditional design."
   },
+
   {
     "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
     "image": "https://example.com/images/g25.jpg",
@@ -279,7 +287,8 @@
       }
     ],
     "price": 7.00,
-    "productLink": "https://example.com/products/g25",
-    "category": "Dl"
+    "productLink": "12",
+    "category": "Dl",
+    "description": "Energy-efficient clear LED globe bulb for a bright, inviting glow in any space."
   }
 ]

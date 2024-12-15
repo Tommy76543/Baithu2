@@ -120,6 +120,19 @@ body {
   /* Ensure product list is centered */
 }
 
+.product-item button {
+  all: unset; /* Reset toàn bộ các thuộc tính mặc định của nút */
+  display: block; /* Đảm bảo nút chiếm toàn bộ không gian */
+  width: 100%; /* Phù hợp với kích thước của cha */
+  height: 100%; /* Phủ toàn bộ nội dung bên trong */
+  cursor: pointer; /* Giữ con trỏ dạng pointer */
+}
+
+.product-item button:focus {
+  outline: none; 
+}
+
+
 /* Product Item */
 .product-item {
   border: 1px solid #ddd;

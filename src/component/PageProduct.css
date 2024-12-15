@@ -1,0 +1,128 @@
+.product-detail {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.image-gallery {
+  flex: 1;
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail-gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.thumbnail-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s, border 0.2s;
+}
+
+.thumbnail-image:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail-image.active {
+  border: 2px solid #007bff;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.price-info {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 410px;
+}
+
+.product-colors {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.color-list {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.buy-button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 410px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #3b3d3f;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the description section */
+.description {
+  display: block; /* Forces it to be a block element, so it goes to the next line */
+  margin-top: 20px; /* Adds space above the description */
+}
+.description {
+    display: flex;
+    flex-direction: column; /* Để các phần tử con xếp theo chiều dọc */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Accordion button style */
+  .accordion {
+    all: unset;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px 15px;
+    width: 70%;
+    
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  
+  /* Panel (the content) hidden by default */
+  .panel {
+    display: none;
+    width: 71.5%;
+    padding: 10px;
+    background-color: #fff;
+    border-top: none;
+    border-radius: 5px;
+  }
+  
+  /* Style for showing the accordion panel */
+  .accordion.active + .panel {
+    display: block;
+  }
+  

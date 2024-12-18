@@ -60,7 +60,7 @@ const DlList = () => {
 
   return (
     <div>
-      <section className="head-body">Decoration Light</section>
+      <section className="head-body">Spot Light</section>
       <hr align="center" width="10%" color="#c9a22e" />
       <div className="spl-list-container">
         <div className="filters">
@@ -116,7 +116,7 @@ const DlList = () => {
           {sortedProducts.map((product, index) => (
               <div className="product-item">
                  <button  key={index} onClick={() => handleProductClick(product.productLink)} >
-                <img src={product.image} alt={product.name} />
+                 <img src={product.image[0]} alt={product.name} />
                 <h3 className="product-name">{product.name}</h3>
 
                 {/* Hiển thị các màu sắc của sản phẩm */}

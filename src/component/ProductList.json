@@ -1,7 +1,8 @@
 [
   {
+    "id": 1,
     "name": "LED COB Ceiling Light Picture Spotlight Focus Lamp Adjustable Bedroom Lighting",
-    "image": ["",""],
+    "image": ["/spl/31RbFG91oxL._AC_SX679_.jpg", "/spl/41fC4GyMxxL._AC_SX679_.jpg","/spl/61uzPkh3OuL._AC_SX679_.jpg"],
     "color": [
       {
         "value": "White",
@@ -23,10 +24,10 @@
     "category": "Spl",
     "description": "An adjustable LED COB ceiling light that provides focused lighting, ideal for bedrooms or art displays."
   },
-  
   {
+    "id": 2,
     "name": "Endon G3223515 Torsion Indoor LED Spot Light Square",
-    "image": "https://www.lights2go.co.uk/images/endon-g3223515-torsion-indoor-led-spot-light-square-p18759-22215_medium.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "Black",
@@ -48,10 +49,10 @@
     "category": "Spl",
     "description": "A square indoor LED spot light that provides a modern and stylish lighting solution for any room."
   },
-
   {
+    "id": 3,
     "name": "Slim Spotlight LED Swing Arm Sconce",
-    "image": "https://cdn.media.amplience.net/i/shadesoflight/WS21008.0.WS21008AB.jpg?fmt=auto&w=1080&q=90",
+    "image": ["", ""],
     "color": [
       {
         "value": "#CD9575",
@@ -66,10 +67,10 @@
     "category": "Spl",
     "description": "A sleek and stylish LED swing arm sconce, perfect for providing adjustable focused lighting."
   },
-
   {
+    "id": 4,
     "name": "8.5 Watt Vintage Filament Medium Base LED Bulb ST18",
-    "image": "https://example.com/images/st18.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "White",
@@ -91,10 +92,10 @@
     "category": "Sl",
     "description": "A vintage-style LED filament bulb with a medium base, offering an energy-efficient and classic look."
   },
-
   {
+    "id": 5,
     "name": "4 Watt E12 Candelabra Base LED Bulb",
-    "image": "https://example.com/images/e12.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "Black",
@@ -116,10 +117,10 @@
     "category": "Sl",
     "description": "A 4-watt E12 candelabra base LED bulb that delivers energy-efficient lighting with a warm glow."
   },
-
   {
+    "id": 6,
     "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
-    "image": "https://example.com/images/g25.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "Brown",
@@ -141,10 +142,10 @@
     "category": "Sl",
     "description": "A clear LED globe bulb with medium base, offering a soft and clear illumination ideal for various settings."
   },
-
   {
+    "id": 7,
     "name": "8.5 Watt Vintage Filament Medium Base LED Bulb ST18",
-    "image": "https://example.com/images/st18.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "White",
@@ -166,10 +167,10 @@
     "category": "Sl",
     "description": "A stylish vintage filament LED bulb that provides a warm and inviting glow with modern efficiency."
   },
-
   {
+    "id": 8,
     "name": "4 Watt E12 Candelabra Base LED Bulb",
-    "image": "https://example.com/images/e12.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "Black",
@@ -191,10 +192,10 @@
     "category": "Dl",
     "description": "A compact 4-watt LED bulb with a candelabra base, ideal for decorative fixtures requiring energy-efficient lighting."
   },
-
   {
+    "id": 9,
     "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
-    "image": "https://example.com/images/g25.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "Brown",
@@ -216,10 +217,10 @@
     "category": "Dl",
     "description": "Clear LED globe bulb that provides a clean and soft lighting effect with energy-efficient performance."
   },
-
   {
+    "id": 10,
     "name": "No",
-    "image": "https://example.com/images/st18.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "White",
@@ -241,10 +242,10 @@
     "category": "Dl",
     "description": "A unique lighting option with a vintage filament design, perfect for stylish interiors."
   },
-
   {
+    "id": 11,
     "name": "4 Watt E12 Candelabra Base LED Bulb",
-    "image": "https://example.com/images/e12.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "Black",
@@ -266,10 +267,10 @@
     "category": "Dl",
     "description": "A 4-watt LED bulb with a candelabra base, providing energy-efficient lighting with a traditional design."
   },
-
   {
+    "id": 12,
     "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
-    "image": "https://example.com/images/g25.jpg",
+    "image": ["", ""],
     "color": [
       {
         "value": "Brown",

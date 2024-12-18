@@ -7,6 +7,6 @@ export const ROUTERS ={
         SPL:"/Spot-Lights",
         SL:"/Smart-Lights",
         PAGEPRODUCT:"/products/:productLink",
-        ABOUTUSCOPY:"/ỵghdjg",
+        CARTSAVE:"/Shopping-cart",
     }
 }

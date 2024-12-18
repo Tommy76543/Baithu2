@@ -1,40 +1,10 @@
-import { memo, useState, useEffect } from "react";
+import React, { memo, useContext } from "react";
 import { Link } from "react-router-dom";
+import { CartContext } from "../../../admin/Cartcontext";
 import "./headerstyle.css";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  // Detect window width and update isMobile state
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-
-    // Set initial value based on window width
-    handleResize();
-
-    // Listen to window resize event
-    window.addEventListener("resize", handleResize);
-
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  // Toggle menu when hamburger is clicked
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  // Close the menu if screen width exceeds 768px
-  useEffect(() => {
-    if (!isMobile) {
-      setIsMenuOpen(false); // Close the menu when not on mobile
-    }
-  }, [isMobile]);
+  const { totalQuantity } = useContext(CartContext); // Lấy số lượng sản phẩm từ context
 
   return (
     <div className="header">
@@ -47,25 +17,18 @@ const Header = () => {
           </div>
           <div className="search-bar">
             <input type="text" placeholder="Search" />
-        
           </div>
           <div className="user-actions">
             <Link to="/Log-in">Account</Link>
             <Link to="/">My List (0)</Link>
             <Link to="/" className="cart-link">
-              Cart (0)
+              Cart ({totalQuantity}) {/* Hiển thị số lượng sản phẩm */}
             </Link>
           </div>
         </div>
       </div>
-      <nav className={`nav-bar ${isMenuOpen ? "active" : ""}`}>
+      <nav className="nav-bar">
         <div className="container">
-          {/* Hamburger icon will only be displayed on mobile screens */}
-          {isMobile && (
-            <div className="hamburger-menu" onClick={toggleMenu}>
-              ☰
-            </div>
-          )}
           <ul className="ulFa">
             <li>
               <Link to="/">Ceiling Lights</Link>

@@ -116,7 +116,7 @@ const SplList = () => {
           {sortedProducts.map((product, index) => (
               <div className="product-item">
                  <button  key={index} onClick={() => handleProductClick(product.productLink)} >
-                <img src={product.image} alt={product.name} />
+                 <img src={product.image[0]} alt={product.name} />
                 <h3 className="product-name">{product.name}</h3>
 
                 {/* Hiển thị các màu sắc của sản phẩm */}

@@ -7,8 +7,9 @@ import Sign from "./pages/users/Sign";
 import SlList from "./component/SlList";
 import SplList from "./component/SplList";
 import DlList from "./component//DlList";
-import AboutUsCopy from "./pages/users/About-us copy";
 import ProductDetail from "./component/PageProduct";
+import Cartsave from "./pages/users/Cartsave";
+
 
 const renderUserRouter =()=> {
     const userRouter =[
@@ -35,12 +36,12 @@ const renderUserRouter =()=> {
             component: <SplList/>,
         },
         {
-            path: ROUTERS.USER.ABOUTUSCOPY,
-            component: <AboutUsCopy/>,
-        },
-        {
             path: ROUTERS.USER. PAGEPRODUCT,
             component: <ProductDetail/>,
+        },
+        {
+            path: ROUTERS.USER.CARTSAVE,
+            component: <Cartsave/>,
         },
     ]
     return(

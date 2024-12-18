@@ -28,7 +28,6 @@ body {
 
 /* Filters Section */
 .filters {
-
   border: 1px solid #ddd;
   padding: 16px;
   border-radius: 8px;
@@ -146,6 +145,8 @@ body {
 
 .product-item img {
   max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
   border-radius: 8px;
 }
 

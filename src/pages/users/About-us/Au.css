@@ -25,4 +25,257 @@
     line-height: 1.6;
   }
 
+  .header1 {
+    display: flex; /* Kích hoạt Flexbox */
+  flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+  align-items: center; /* Căn giữa nội dung theo chiều ngang */
+  gap: 20px; /* Khoảng cách giữa các phần tử */
+}
   
+  .chu1 {
+    text-align: center; /* Căn giữa chữ tiêu đề */
+  margin: 0; /* Xóa khoảng cách mặc định */
+  }
+  
+  .chu1p {
+    text-align: center; /* Căn giữa đoạn văn giới thiệu */
+  
+  }
+  
+  .image1 {
+    width: 100%; /* Đặt chiều rộng hình ảnh */
+  height: 50%; /* Giữ tỷ lệ khung hình */
+  
+  }
+  
+  .header2 {
+    display: flex; /* Sử dụng Flexbox để căn nội dung */
+    align-items: flex-start; /* Căn chữ và hình theo chiều dọc */
+    gap: 150px; /* Khoảng cách giữa chữ và hình */
+  }
+  
+  .chu2 {
+    flex: 1; /* Văn bản chiếm không gian linh hoạt */
+  }
+  
+  .image2 {
+    width: 45%; /* Đặt kích thước hình ảnh phù hợp */
+    height: auto; /* Giữ tỉ lệ khung hình */
+    flex-shrink: 0; /* Ngăn hình bị co lại */
+  }
+  
+  .header3 {
+    text-align: center; /* Căn giữa chữ tiêu đề */
+    margin: 0; /* Xóa khoảng cách mặc định */
+  }
+
+.image3 {
+  width: 550px; /* Đặt chiều rộng cho hình ảnh */
+  height: auto; /* Giữ tỉ lệ khung hình */
+  flex-shrink: 0; /* Đảm bảo hình ảnh không bị co lại */
+}
+
+.headerr3 {
+  display: flex; /* Sử dụng Flexbox để căn nội dung */
+    align-items: flex-start; /* Căn chữ và hình theo chiều dọc */
+    gap: 180px; /* Khoảng cách giữa chữ và hình */
+}
+
+.chu3 {
+  flex: 1; /* Chiếm phần không gian còn lại */
+  text-align: left; /* Căn lề trái cho văn bản */
+  max-width: 600px; /* Giới hạn chiều rộng nội dung */
+}
+
+
+
+
+/* Container chính */
+.header4 {
+  display: flex; /* Kích hoạt Flexbox */
+  align-items: center; /* Căn chỉnh nội dung theo chiều dọc */
+  justify-content: space-between; /* Giữ khoảng cách giữa chữ và hình */
+  gap: 20px; /* Khoảng cách giữa chữ và hình ảnh */
+  padding: 20px; /* Khoảng cách xung quanh container */
+}
+
+/* Phần chữ */
+.chu4 {
+  flex: 1; /* Chia phần chữ chiếm 1 phần linh hoạt */
+  text-align: left; /* Căn lề trái cho văn bản */
+  max-width: 50%; /* Chiều rộng tối đa cho phần chữ */
+}
+
+
+
+/* Phần hình ảnh */
+.img4 {
+  width: 550px; /* Đặt kích thước hình ảnh phù hợp */
+    height: auto; /* Giữ tỉ lệ khung hình */
+    flex-shrink: 0; /* Ngăn hình bị co lại */
+}
+
+.image4 {
+  width: 100%; /* Hình ảnh chiếm toàn bộ chiều rộng container con */
+  max-width: 550px; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo tròn góc (tùy chọn) */
+}
+
+.header5 {
+  display: flex;
+  align-items: flex-start; /* Căn theo chiều dọc */
+  gap: 50px; /* Khoảng cách giữa hình ảnh và chữ */
+}
+
+.img5 {
+  flex: 1; /* Chiếm 1 phần không gian */
+}
+
+.image5 {
+  width: 100%; /* Chiều rộng hình ảnh đầy đủ container */
+  max-width: 550px; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo góc (tùy chọn) */
+  gap: 180px;
+}
+
+.chu5 {
+  flex: 1; /* Chiếm phần không gian còn lại */
+  text-align: left; /* Căn lề trái cho văn bản */
+  max-width: 600px; /* Giới hạn chiều rộng nội dung */
+}
+
+.header6 {
+  display: flex; /* Kích hoạt Flexbox */
+  align-items: center; /* Căn chỉnh nội dung theo chiều dọc */
+  justify-content: space-between; /* Giữ khoảng cách giữa chữ và hình */
+  gap: 20px; /* Khoảng cách giữa chữ và hình ảnh */
+  padding: 20px; /* Khoảng cách xung quanh container */
+}
+
+.chu6 {
+  flex: 1; /* Chia phần chữ chiếm 1 phần linh hoạt */
+  text-align: left; /* Căn lề trái cho văn bản */
+  max-width: 50%; /* Chiều rộng tối đa cho phần chữ */
+}
+
+.image6 {
+  width: 100%; /* Hình ảnh chiếm toàn bộ chiều rộng container con */
+  max-width: 700px; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo tròn góc (tùy chọn) */
+}
+
+.img6 {
+  width: 450px; /* Đặt kích thước hình ảnh phù hợp */
+    height: auto; /* Giữ tỉ lệ khung hình */
+    flex-shrink: 0; /* Ngăn hình bị co lại */
+}
+
+/* Container chính */
+.header7 {
+  text-align: center; /* Căn giữa nội dung theo chiều ngang */
+  padding: 20px; /* Khoảng cách xung quanh container */
+}
+
+/* Định dạng cho hình ảnh */
+.img7 {
+  margin-top: 20px; /* Tạo khoảng cách giữa hình và chữ */
+}
+
+.image7 {
+  display: block; /* Đảm bảo hình là block để căn giữa dễ dàng */
+  margin: 0 auto; /* Căn giữa hình theo chiều ngang */
+  width: 100%; /* Hình đầy đủ chiều rộng container */
+  max-width: 6000px; /* Giới hạn kích thước tối đa của hình */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo góc hình ảnh (tùy chọn) */
+}
+
+
+/* Container chính */
+.header8 {
+  display: flex; /* Sử dụng Flexbox để căn nội dung theo hàng ngang */
+  align-items: center; /* Căn chữ và hình theo chiều dọc */
+  gap: 20px; /* Khoảng cách giữa hình và chữ */
+  padding: 20px; /* Tạo khoảng cách bên trong container */
+}
+
+/* Hình ảnh bên trái */
+.img8 {
+  width: 100%; /* Hình ảnh chiếm toàn bộ phần của nó */
+  max-width: 650px; /* Giới hạn kích thước tối đa của hình ảnh */
+  height: auto; /* Đảm bảo hình ảnh giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo góc ảnh (tùy chọn) */
+}
+
+/* Phần chữ bên phải */
+.chu8 {
+  flex: 1; /* Phần chữ chiếm không gian còn lại */
+  text-align: left; /* Căn chữ về bên trái */
+}
+
+.image8 {
+  width: 100%; /* Chiều rộng hình ảnh đầy đủ container */
+  max-width: 500px; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo góc (tùy chọn) */
+}
+
+
+.header9 {
+  display: flex; /* Kích hoạt Flexbox */
+  align-items: center; /* Căn chỉnh nội dung theo chiều dọc */
+  justify-content: space-between; /* Giữ khoảng cách giữa chữ và hình */
+  gap: 20px; /* Khoảng cách giữa chữ và hình ảnh */
+  padding: 20px; /* Khoảng cách xung quanh container */
+}
+
+.chu9 {
+  flex: 1; /* Chia phần chữ chiếm 1 phần linh hoạt */
+  text-align: left; /* Căn lề trái cho văn bản */
+  max-width: 50%; /* Chiều rộng tối đa cho phần chữ */
+}
+
+.image9 {
+  width: 100%; /* Hình ảnh chiếm toàn bộ chiều rộng container con */
+  max-width: 700px; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo tròn góc (tùy chọn) */
+}
+
+.img9 {
+  width: 550px; /* Đặt kích thước hình ảnh phù hợp */
+    height: auto; /* Giữ tỉ lệ khung hình */
+    flex-shrink: 0; /* Ngăn hình bị co lại */
+}
+
+
+.header10 {
+  display: flex; /* Sử dụng Flexbox để căn nội dung theo hàng ngang */
+  align-items: center; /* Căn chữ và hình theo chiều dọc */
+  gap: 20px; /* Khoảng cách giữa hình và chữ */
+  padding: 20px; /* Tạo khoảng cách bên trong container */
+}
+
+/* Hình ảnh bên trái */
+.img10 {
+  width: 100%; /* Hình ảnh chiếm toàn bộ phần của nó */
+  max-width: 650px; /* Giới hạn kích thước tối đa của hình ảnh */
+  height: auto; /* Đảm bảo hình ảnh giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo góc ảnh (tùy chọn) */
+}
+
+/* Phần chữ bên phải */
+.chu10 {
+  flex: 1; /* Phần chữ chiếm không gian còn lại */
+  text-align: left; /* Căn chữ về bên trái */
+}
+
+.image10 {
+  width: 100%; /* Chiều rộng hình ảnh đầy đủ container */
+  max-width: 500px; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Bo góc (tùy chọn) */
+}

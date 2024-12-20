@@ -9,6 +9,8 @@ import SplList from "./component/SplList";
 import DlList from "./component//DlList";
 import ProductDetail from "./component/PageProduct";
 import Cartsave from "./pages/users/Cartsave";
+import ContractUs from "./pages/users/Contract-us";
+import FQA from "./pages/users/FQA";
 
 
 const renderUserRouter =()=> {
@@ -42,6 +44,14 @@ const renderUserRouter =()=> {
         {
             path: ROUTERS.USER.CARTSAVE,
             component: <Cartsave/>,
+        },
+        {
+            path: ROUTERS.USER.CONTRACTUS,
+            component: <ContractUs/>,
+        },
+        {
+            path: ROUTERS.USER.FQA,
+            component: <FQA/>,
         },
     ]
     return(

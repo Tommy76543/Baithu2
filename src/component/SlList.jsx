@@ -60,7 +60,7 @@ const SlList = () => {
 
   return (
     <div>
-      <section className="head-body">Spot Light</section>
+      <section className="head-body">Smart Light</section>
       <hr align="center" width="10%" color="#c9a22e" />
       <div className="spl-list-container">
         <div className="filters">

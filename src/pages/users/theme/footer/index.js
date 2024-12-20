@@ -54,7 +54,10 @@ const Footer = () => {
               <h4>Customer Service</h4>
               <ul>
                 <li>
-                  <Link to="#">Contact Us</Link>
+                  <Link to="/Contract-us">Contact Us</Link>
+                </li>
+                <li>
+                  <Link to="/Customer-Help">FQA</Link>
                 </li>
               </ul>
             </div>

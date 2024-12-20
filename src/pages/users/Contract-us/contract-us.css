@@ -1,0 +1,102 @@
+.header1 {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.chu1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.header2 {
+  display: flex;
+  gap: 20px;
+}
+
+.header3 {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Bo tròn các góc */
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.phone4 {
+  border: 2px solid #ddd; /* Viền màu xám nhạt */
+  border-radius: 8px; /* Bo tròn các góc */
+  padding: 15px; /* Khoảng cách bên trong khung */
+  margin: 20px 0; /* Lề trên và dưới */
+  
+}
+
+.phoneli {
+  font-size: 14px; /* Kích thước chữ nhỏ gọn */
+  line-height: 2; /* Tăng khoảng cách dòng giúp chữ đều hơn */
+  color: #333; /* Màu xám đậm */
+  border-bottom: 1px solid #f0f0f0; /* Đường kẻ ngăn giữa các mục */
+  padding: 8px 0; /* Khoảng cách giữa nội dung và đường kẻ */
+}
+
+.hours5 {
+  border: 1px solid #e0e0e0; /* Viền mỏng màu xám */
+  border-radius: 8px; /* Bo tròn góc */
+  padding: 20px; /* Khoảng cách bên trong */
+  background-color: #fff; /* Nền trắng */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Đổ bóng nhẹ */
+  font-family: Arial, sans-serif; /* Font chữ chuẩn */
+  max-width: 800px; /* Độ rộng tối đa */
+  margin: 20px auto; /* Căn giữa */
+}
+
+.hours6 {
+  font-size: 14px; /* Kích thước chữ nhỏ gọn */
+  line-height: 1.6; /* Khoảng cách giữa các dòng */
+  color: #333; /* Màu chữ xám đậm */
+  margin-bottom: 8px; /* Khoảng cách giữa các mục */
+}
+
+
+.contact-container {
+  display: flex; /* Sử dụng Flexbox để tạo bố cục 2 cột */
+  justify-content: space-between; /* Tạo khoảng cách đều giữa các cột */
+  gap: 20px; /* Khoảng cách giữa các cột */
+  padding: 20px; /* Khoảng cách viền trong container */
+  background-color: #fff; /* Màu nền trắng */
+  border-radius: 8px; /* Bo tròn góc */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  font-family: Arial, sans-serif; /* Font chữ chuẩn */
+  max-width: 900px; /* Chiều rộng tối đa */
+  margin: 20px auto; /* Căn giữa container */
+}
+
+/* Box (cột) */
+.contact-box {
+  flex: 1; /* Chia đều không gian cho mỗi cột */
+  padding: 15px; /* Khoảng cách bên trong box */
+  border: 1px solid #e0e0e0; /* Viền mỏng màu xám */
+  border-radius: 8px; /* Bo tròn góc */
+}
+
+.contact-title {
+  font-size: 16px; /* Kích thước chữ */
+  font-weight: bold; /* In đậm */
+  margin-bottom: 10px; /* Khoảng cách dưới */
+  color: #000; /* Màu chữ đen */
+} 
+
+.lienhe {
+  color: #007bff; /* Màu xanh dương cho link */
+  text-decoration: underline; /* Gạch chân link */
+  font-weight: normal;
+}
+
+  

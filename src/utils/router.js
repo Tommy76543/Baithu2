@@ -8,5 +8,7 @@ export const ROUTERS ={
         SL:"/Smart-Lights",
         PAGEPRODUCT:"/products/:productLink",
         CARTSAVE:"/Shopping-cart",
+        CONTRACTUS:"/Contract-us",
+        FQA:"/Customer-Help",
     }
 }

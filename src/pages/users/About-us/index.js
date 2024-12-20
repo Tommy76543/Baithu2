@@ -1,29 +1,155 @@
-import {memo} from "react";
+import { memo } from "react";
 import "./Au.css";
-const AboutUs  = () => {
-    return (
-<div className="Ab">
+const AboutUs = () => {
+  return (
+    <div className="Ab">
       <div className="column left"></div> {/* Left column (empty) */}
-      
+
       <div className="column center">
-        <h1>About Chic Lighting & Design</h1>
-        <p>Established in 1971, Chic Lighting & Design has been a trusted name in the lighting industry for over five decades. Our journey began with a simple yet ambitious vision: to offer an unparalleled range of lighting solutions that cater to diverse styles and preferences. Over the years, we have grown into a leading retailer of distinctive lighting and accessories, earning a reputation for excellence in both product quality and customer service.</p>
+        <div class="header1">
+          <div >
+            <h1 class="chu1">Chic Light & Design – Illuminating Style, Elevating Spaces</h1>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <img src="./Au/01chic.jpg" class="image1" alt="Chic Light Design" />
+            <p class="chu1p">
+              Chic Light & Design is a leading brand specializing in providing unique lighting solutions and interior design.
+              We believe that light is not just illumination but a key element in creating sophisticated, inspiring living and working spaces.
+            </p>
+          </div>
 
-        <p>At Chic Lighting & Design, we pride ourselves on offering a vast selection of lighting options that blend timeless elegance with contemporary innovation. Whether you’re seeking the classic allure of traditional designs or the sleek sophistication of modern aesthetics, our carefully curated collections cater to every taste and interior style. From luxurious crystal chandeliers to minimalist industrial pendant lights, we provide lighting solutions that enhance the ambiance of any space.</p>
+        </div>
+        <div class="header2">
+          <div class="chu2">
+            <h2>Our Mission</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>
+              We aim to turn lighting into a bridge between art and comfort. From compact spaces in modern apartments to large
+              architectural projects such as luxurious hotels or restaurants, Chic Light & Design is your trusted partner in making a difference.
+            </p>
+          </div>
+          <img src="./Au/02our.jpg" class="image2" alt="Our Mission" />
+        </div>
 
-        <p>As a specialized online retailer, our product range includes LED lights, lamps, chandeliers, and pendant lighting in a variety of designs and finishes. Our extensive collections showcase everything from the sparkle of crystal chandeliers and the charm of traditional designs to the bold lines of modern chandeliers and the understated appeal of glass or metal pendant lights. Additionally, we feature industrial and retro-inspired lighting that adds a unique character to eclectic interiors. Each piece is thoughtfully selected to ensure it meets our high standards of quality, durability, and aesthetic appeal.</p>
 
-        <p>Customer service is at the heart of everything we do. At Chic Lighting & Design, we are dedicated to creating an exceptional shopping experience for our clients. When you reach out to us during business hours, you can trust that you’ll be connected with a knowledgeable design professional who is ready to assist you. Whether it’s through a phone call or an email, our team is committed to providing personalized service tailored to your specific needs.</p>
+        <div class="header3">
+          <h1>Highlights of Chic Light & Design</h1>
+          <hr align="center" width="30%" color="#c9a22e" />
+        </div>
 
-        <p>Our staff consists of experienced and passionate professionals who undergo continuous training and education to stay updated on the latest trends and innovations in the lighting industry. Their expertise ensures that we can provide valuable insights and recommendations for all types of lighting projects—whether you’re renovating a single room, designing a new home, or outfitting a commercial space.</p>
+        <div class="headerr3">
+          <div class="img3">
+            <img src="./Au/03hinh.jpg" class="image3" alt="Product" />
+          </div>
+          <div class="chu3">
+            <h2>Diverse Product Range:</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>Crystal chandeliers and elegant pendant lights for living rooms.</p>
+            <p>Modern desk lamps and wall sconces to suit every interior style.</p>
+            <p>Smart lighting solutions to optimize energy usage.</p>
+            <p>Outdoor decorative lights designed to withstand harsh weather conditions.</p>
+          </div>
+        </div>
 
-        <p>In addition to our commitment to quality and service, we aim to make the process of selecting and purchasing lighting as seamless as possible. With our user-friendly online platform, customers can easily browse through our collections, compare products, and find the perfect lighting solutions for their interiors. We strive to inspire creativity and confidence, empowering our clients to create spaces that reflect their unique style and personality.</p>
 
-        <p>Choose Chic Lighting & Design for your lighting needs, and experience the perfect blend of style, quality, and service. Let us help you illuminate your spaces beautifully and create lasting impressions for years to come.</p>
+
+
+        <div class="header4">
+          <div class="chu4">
+            <h2>Sophisticated Designs:</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>
+              Each product we create is a perfect combination of aesthetics and functionality.
+              Inspired by classic, modern, or minimalist styles, Chic Light & Design ensures harmony in every space.
+            </p>
+          </div>
+          <div class="img4">
+            <img src="./Au/04cated.jpg" class="image4" alt="Product" />
+          </div>
+        </div>
+
+
+        <div class="header5">
+          <div class="img5">
+            <img src="./Au/05logy.jpg" class="image5" alt="Product" />
+          </div>
+          <div class="chu5">
+            <h2>Advanced Technology:</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>Utilizing eco-friendly and energy-efficient LED lighting.</p>
+            <p>Integrated smart features such as color and brightness adjustments via mobile apps.</p>
+          </div>
+        </div>
+
+
+        <div class="header6">
+          <div class="chu6">
+            <h2>Superior Quality:</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>Our products are crafted from premium materials such as crystal, stainless steel, and natural wood, ensuring durability and complete safety.</p>
+          </div>
+          <div class="img6">
+            <img src="./Au/06qua.jpg" class="image6" alt="Product" />
+          </div>
+        </div>
+
+
+        <div class="header7">
+          <h1>Why Choose Chic Light & Design?</h1>
+          <hr align="center" width="30%" color="#c9a22e" />
+          <div class="img7">
+            <img src="./Au/07why.jpg" class="image7" alt="Product" />
+          </div>
+        </div>
+
+
+        <div class="header8">
+          <div class="img8">
+            <img src="./Au/08team.jpg" class="image8" alt="Product" />
+          </div>
+          <div class="chu8">
+            <h2>Dedicated Team:</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>
+              Our experienced experts are always ready to provide advice and support, from design to installation.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="header9">
+          <div class="chu9">
+            <h2>Service Commitment:</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>We guarantee warranty, maintenance, and customer support throughout the product's lifecycle.</p>
+          </div>
+          <div class="img9">
+            <img src="./Au/09ser.jpg" class="image9" alt="Product" />
+          </div>
+        </div>
+
+
+
+        <div class="header10">
+        <div class="img10">
+            <img src="./Au/10sus.jpg" class="image9" alt="Product" />
+          </div>
+          <div class="chu10">
+            <h2>Sustainable Value:</h2>
+            <hr align="center" width="30%" color="#c9a22e" />
+            <p>We prioritize energy-saving and environmentally friendly solutions.</p>
+          </div>
+          
+        </div>
+
+
+        <h1>Let Chic Light & Design Be Your Partner!</h1>
+        <hr align="center" width="30%" color="#c9a22e" />
+        <p>Whether you're seeking coziness for your living space or impressive aesthetics for large-scale projects, we are always ready to deliver the best solutions.</p>
+
       </div>
-      
+
       <div className="column right"></div> {/* Right column (empty) */}
     </div>
-);
+  );
 };
 export default memo(AboutUs);

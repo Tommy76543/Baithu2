@@ -1,31 +1,9 @@
-import React, { useContext ,useEffect } from 'react';
-import { memo } from "react";
+import React, { useContext } from "react";
 import { CartContext } from "../../admin/Cartcontext";
 import "./cartsave.css";
 
 const Cartsave = () => {
   const { cart, setCart } = useContext(CartContext);
- 
-  // Lưu trạng thái giỏ hàng vào localStorage mỗi khi thay đổi
-  useEffect(() => {
-    localStorage.setItem('shoppingCart', JSON.stringify(cart));
-  }, [cart]);
-
-  // Hàm thêm sản phẩm vào giỏ hàng
-  const addToCart = (item) => {
-    setCart((prevCart) => {
-      const existingProduct = prevCart.find((product) => product.id === item.id);
-      if (existingProduct) {
-        return prevCart.map((product) =>
-          product.id === item.id
-            ? { ...product, quantity: product.quantity + 1 }
-            : product
-        );
-      } else {
-        return [...prevCart, { ...item, quantity: 1 }];
-      }
-    });
-  };
 
   // Hàm xóa sản phẩm khỏi giỏ hàng
   const removeFromCart = (id) => {
@@ -34,21 +12,17 @@ const Cartsave = () => {
 
   // Hàm cập nhật số lượng sản phẩm
   const updateQuantity = (id, newQuantity) => {
-    setCart((prevCart) => {
-      return prevCart.map((item) =>
-        item.id === id ? { ...item, quantity: newQuantity } : item
-      );
-    });
+    setCart((prevCart) =>
+      prevCart.map((item) =>
+        item.id === id ? { ...item, quantity: Math.max(newQuantity, 1) } : item
+      )
+    );
   };
 
   // Tính tổng giá của giỏ hàng
-  const totalPrice = cart.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2);
-
-  // Hàm xử lý hành động "Buy Now"
-  const handleBuyNow = () => {
-    alert("Proceeding to checkout!");
-    // Xử lý mua hàng, có thể là chuyển hướng đến trang thanh toán hoặc gửi dữ liệu giỏ hàng
-  };
+  const totalPrice = cart
+    .reduce((total, item) => total + item.price * item.quantity, 0)
+    .toFixed(2);
 
   return (
     <div className="shopping-cart-container">
@@ -57,16 +31,15 @@ const Cartsave = () => {
         {cart.length > 0 ? (
           cart.map((item) => (
             <li key={item.id} className="shopping-cart-item">
-              {/* Hiển thị hình ảnh sản phẩm */}
               <img
-                src={item.image[0]} // Lấy hình ảnh từ thuộc tính 'image'
+                src={item.image[0]}
                 alt={item.name}
                 className="shopping-cart-item-image"
               />
-              
-              <span className="shopping-cart-item-name">{item.name}</span> - 
+
+              <span className="shopping-cart-item-name">{item.name}</span> -
               <span className="shopping-cart-item-price">{item.price} $</span>
-              
+
               <div className="quantity-container">
                 <button
                   className="quantity-button"
@@ -104,13 +77,10 @@ const Cartsave = () => {
       {cart.length > 0 && (
         <div className="cart-summary">
           <h3>Total Price: {totalPrice} $</h3>
-          <button className="buy-now-button" onClick={handleBuyNow}>
-            Buy Now
-          </button>
         </div>
       )}
     </div>
   );
 };
 
-export default memo(Cartsave);
+export default Cartsave;

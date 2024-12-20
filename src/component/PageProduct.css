@@ -3,7 +3,6 @@
   gap: 20px;
   padding: 2px;
   font-family: Arial, sans-serif;
-  
 }
 
 .image-gallery {
@@ -11,17 +10,14 @@
   text-align: center;
 }
 
-
-  .main-image {
-    width: 400px; /* Cố định chiều rộng */
-    height: 300px; /* Cố định chiều cao */
-    object-fit: contain; /* Đảm bảo hình ảnh giữ tỉ lệ bên trong khung */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    background-color: #fff; /* Tạo nền xám nhạt để khung hình nổi bật hơn */
-  }
-  
-
+.main-image {
+  width: 400px; /* Cố định chiều rộng */
+  height: 300px; /* Cố định chiều cao */
+  object-fit: contain; /* Đảm bảo hình ảnh giữ tỉ lệ bên trong khung */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff; /* Tạo nền xám nhạt để khung hình nổi bật hơn */
+}
 
 .thumbnail-gallery {
   display: flex;
@@ -89,47 +85,42 @@
 
 /* Style for the description section */
 .description {
-  display: block; /* Forces it to be a block element, so it goes to the next line */
-  margin-top: 20px; /* Adds space above the description */
+  display: flex;
+  flex-direction: column; /* Để các phần tử con xếp theo chiều dọc */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
-.description {
-    display: flex;
-    flex-direction: column; /* Để các phần tử con xếp theo chiều dọc */
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Accordion button style */
-  .accordion {
-    all: unset;
-    background-color: #fff;
-    color: #000000;
-    cursor: pointer;
-    padding: 10px 15px;
-    width: 70%;
-    
-    border-radius: 5px;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  }
-  
- 
-  
-  /* Panel (the content) hidden by default */
-  .panel {
-    display: none;
-    width: 71.5%;
-    padding: 10px;
-    background-color: #fff;
-    border-top: none;
-    border-radius: 5px;
-  }
-  
-  /* Style for showing the accordion panel */
-  .accordion.active + .panel {
-    display: block;
-  }
-  /* Nút tăng giảm số lượng */
+
+.accordion {
+  all: unset;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 10px 15px;
+  width: 70%;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.accordion:hover {
+  background-color: #f1f1f1;
+}
+
+.panel {
+  display: none;
+  width: 71.5%;
+  padding: 10px;
+  background-color: #fff;
+  border-top: none;
+  border-radius: 5px;
+}
+
+.panel.show {
+  display: block; /* Hiển thị khi mở */
+}
+
 .quantity-control {
   display: flex;
   align-items: center;

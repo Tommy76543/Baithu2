@@ -21,7 +21,7 @@ const Header = () => {
           <div className="user-actions">
             <Link to="/Log-in">Account</Link>
             <Link to="/">My List (0)</Link>
-            <Link to="/" className="cart-link">
+            <Link to="/Shopping-cart" className="cart-link">
               Cart ({totalQuantity}) {/* Hiển thị số lượng sản phẩm */}
             </Link>
           </div>

@@ -1,58 +1,8 @@
 [
   {
     "id": 1,
-    "name": "LED COB Ceiling Light Picture Spotlight Focus Lamp Adjustable Bedroom Lighting",
-    "image": ["/spl/31RbFG91oxL._AC_SX679_.jpg", "/spl/41fC4GyMxxL._AC_SX679_.jpg","/spl/61uzPkh3OuL._AC_SX679_.jpg"],
-    "color": [
-      {
-        "value": "White",
-        "style": {
-          "backgroundColor": "#FFFFFF",
-          "border": "1px solid #ccc"
-        }
-      },
-      {
-        "value": "Black",
-        "style": {
-          "backgroundColor": "#000000",
-          "border": "1px solid #ccc"
-        }
-      }
-    ],
-    "price": 40.19,
-    "productLink": "1",
-    "category": "Spl",
-    "description": "An adjustable LED COB ceiling light that provides focused lighting, ideal for bedrooms or art displays."
-  },
-  {
-    "id": 2,
-    "name": "Endon G3223515 Torsion Indoor LED Spot Light Square",
-    "image": ["", ""],
-    "color": [
-      {
-        "value": "Black",
-        "style": {
-          "backgroundColor": "#000000",
-          "border": "1px solid #ccc"
-        }
-      },
-      {
-        "value": "White",
-        "style": {
-          "backgroundColor": "#FFFFFF",
-          "border": "1px solid #ccc"
-        }
-      }
-    ],
-    "price": 61.18,
-    "productLink": "2",
-    "category": "Spl",
-    "description": "A square indoor LED spot light that provides a modern and stylish lighting solution for any room."
-  },
-  {
-    "id": 3,
-    "name": "Slim Spotlight LED Swing Arm Sconce",
-    "image": ["", ""],
+    "name": "2 Pack 1 Light Track Lighting Modern Ceiling Spotlight Indoor with Matte Brass",
+    "image": ["/Spl/1.jpg", "/Spl/1.1.jpg", "/spl/1.2.jpg"],
     "color": [
       {
         "value": "#CD9575",
@@ -62,15 +12,52 @@
         }
       }
     ],
-    "price": 7.00,
+    "price": 29.99,
+    "productLink": "1",
+    "category": "Spl",
+    "description": "This 2-Pack ceiling spotlight combines industrial and traditional design, perfect for minimalist interiors. Each gold spotlight (4.3x4.3x5.5 inches) provides ideal lighting with adjustable, multi-directional lamp heads that rotate 350° horizontally and 90° vertically. It is compatible with 2xGU10 Max. 50W bulbs (sold separately), including LED, incandescent, and halogen bulbs, and works with a dimmer switch for customizable ambiance. Made from high-quality, corrosion-resistant metal with a matte brass finish, it’s easy to install and suitable for spaces like bedrooms, kitchens, offices, and more. Contact customer service for any issues."
+  },
+  {
+    "id": 2,
+    "name": "Copper Spotlight Surface Mounted Accent Spot Light E27 Round Fixed Track Lighting Kit, Adjustable Brass Ceiling Mount Lamp, Directional Ceiling Spotlights for Corridor (Size : 3-Light)",
+    "image": ["/Spl/3.1.jpg", "/Spl/3.2.jpg", "/Spl/3.3.jpg"],
+    "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 108.86,
+    "productLink": "2",
+    "category": "Spl",
+    "description": "This ceiling spotlight comes with all necessary installation hardware for quick and easy setup. It is compatible with E27 incandescent, LED, or CFL bulbs (not included), with a maximum wattage of 40W. Featuring a minimalist design with adjustable 2/3/4-head spotlights, the spotlight has a durable H65 brass lamp body that’s easy to install and serves as a great alternative to traditional recessed lights. It’s suitable for lighting areas of 5-10㎡ and fits perfectly in various spaces such as living rooms, dining rooms, corridors, art galleries, and hotels. Made from refined copper, the spotlight comes in different sizes: 30CM (2-light), 30CM (3-light), and 35CM (4-light) in length, with widths and heights varying accordingly. If you have any issues with the fixture, feel free to contact customer service for a quick response within 24 hours."
+  },
+  {
+    "id": 3,
+    "name": "Arcfox Replaceable 3 Light Flush Mount Ceiling Spotlight Fixture Round Mr16 Type Gu10 Base Directional LED Track Lighting Fixtures Ceiling White Gallery Accent Lighting 3x5w LED Bulb Included",
+    "image": ["/Spl/2.1.jpg", "/Spl/2.2.jpg", "/Spl/2.3.jpg", "/Spl/2.4.jpg"],
+    "color": [
+     
+      {
+        "value": "#CD9575",
+        "style": {
+          "backgroundColor": "#CD9575",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 56.99,
     "productLink": "3",
     "category": "Spl",
-    "description": "A sleek and stylish LED swing arm sconce, perfect for providing adjustable focused lighting."
+    "description": "The 3-pack ceiling spotlight fixture comes with 3x5W LED bulbs (3000K, 60°), offering a flexible lighting solution with customizable color temperature, brightness, and beam angle, compatible with MR16 LED, CFL, and incandescent bulbs. Featuring a swivel and rotation design, the lights can rotate 350° horizontally and 90° vertically to direct the light exactly where needed. For adjustable brightness, it works with dimmable bulbs and a compatible dimmer switch (sold separately). Made from durable aluminum for efficient heat dissipation, this spotlight is backed by a 2-year warranty, with Arcfox dedicated to ensuring customer satisfaction."
   },
   {
     "id": 4,
-    "name": "8.5 Watt Vintage Filament Medium Base LED Bulb ST18",
-    "image": ["", ""],
+    "name": "LED Spot Lights Indoor, 5W Dimmable Up Lighting with Remote Control & Timer, 3000K/4000K/5000K Ambient Lighing for Home Living Room, Wall and Table, with 5.9 FT Cord",
+    "image": ["/Spl/4.1.jpg", "/Spl/4.2.jpg", "/Spl/4.3.jpg"],
     "color": [
       {
         "value": "White",
@@ -78,25 +65,25 @@
           "backgroundColor": "#FFFFFF",
           "border": "1px solid #ccc"
         }
-      },
-      {
-        "value": "Black",
-        "style": {
-          "backgroundColor": "#000000",
-          "border": "1px solid #ccc"
-        }
-      }
+      }     
     ],
-    "price": 14.00,
+    "price": 32.99,
     "productLink": "4",
-    "category": "Sl",
-    "description": "A vintage-style LED filament bulb with a medium base, offering an energy-efficient and classic look."
+    "category": "Spl",
+    "description": "Our indoor spotlights are made from premium aluminum, ensuring durability, excellent heat dissipation, and resistance to corrosion. With three adjustable color temperatures (3000K, 4000K, and 5000K) and a dimming range from 10% to 100%, you can easily customize the lighting using the included remote control. Equipped with 5W high-quality LED beads, these spotlights are more energy-efficient and brighter than traditional options, with a lifespan of up to 50,000 hours. The spotlight’s compact, minimalist design makes installation easy with a 5.9-foot power cord, and its adjustable angles allow for versatile positioning. Plus, we offer reliable customer support for any issues you may encounter."
   },
   {
     "id": 5,
-    "name": "4 Watt E12 Candelabra Base LED Bulb",
-    "image": ["", ""],
+    "name": "WAC Lighting, Monopoint 007 Spot Light in Brushed Nickel",
+    "image": ["/Spl/5.1.jpg", "/Spl/5.2.jpg"],
     "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      },
       {
         "value": "Black",
         "style": {
@@ -105,47 +92,47 @@
         }
       },
       {
-        "value": "Brown",
+        "value": "#CD9575",
         "style": {
-          "backgroundColor": "#A52A2A",
+          "backgroundColor": "#CD9575",
           "border": "1px solid #ccc"
         }
       }
     ],
-    "price": 6.00,
+    "price": 58.35,
     "productLink": "5",
-    "category": "Sl",
-    "description": "A 4-watt E12 candelabra base LED bulb that delivers energy-efficient lighting with a warm glow."
+    "category": "Spl",
+    "description": "This fixture features a die-cast aluminum construction with a bi-pin ceramic socket and 18 gauge Teflon insulated wires, protected by fiberglass sleeves. It comes with a tempered clear glass lens, and special lens types such as spread lenses and UV lenses can be used. The fixture can be mounted on the ceiling or wall, with a 120V transformer in the canopy (requiring a minimum load of 1 watt for LED lamps). It offers smooth, continuous dimming to 10% when paired with an electronic low voltage dimmer. The fixture accepts one 12V LED MR16 or Halogen MR16 lamp, with a maximum power of 50W. The 007LED version includes an LED lamp, while the 007 non-LED version requires the lamp to be purchased separately. The fixture dimensions are 6.5 inches high by 4.5 inches wide and requires a 50W MR16 Halogen bulb."
   },
   {
     "id": 6,
-    "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
-    "image": ["", ""],
+    "name": "Holibanna Spotlight Jewelry Showcases Display Lighting Fixture Standing Up Cabinet Spotlight Lights for Indoor Display Cabinet Accent",
+    "image": ["/Spl/6.1.jpg", "/Spl/6.2.jpg", "/Spl/6.3.jpg"],
     "color": [
-      {
-        "value": "Brown",
-        "style": {
-          "backgroundColor": "#A52A2A",
-          "border": "1px solid #ccc"
-        }
-      },
       {
         "value": "White",
         "style": {
           "backgroundColor": "#FFFFFF",
           "border": "1px solid #ccc"
         }
+      },
+      {
+        "value": "Black",
+        "style": {
+          "backgroundColor": "#000000",
+          "border": "1px solid #ccc"
+        }
       }
     ],
-    "price": 7.00,
+    "price": 18.59,
     "productLink": "6",
-    "category": "Sl",
-    "description": "A clear LED globe bulb with medium base, offering a soft and clear illumination ideal for various settings."
+    "category": "Spl",
+    "description": "This small, bright LED spotlight is perfect for accent lighting, providing a modern touch to your home or display area. With its adjustable head design, you can easily change the lighting direction to highlight specific items. Ideal for cabinets, jewelry showcases, and small displays, it offers reliable and efficient illumination. The spotlight is anti-wear, resistant, and energy-efficient, ensuring durability and low power consumption. Its compact size makes it portable and versatile, suitable for various settings such as home dressers, cabinets, restaurants, and coffee shops. This LED spotlight brings a cozy and stylish ambiance to any space."
   },
   {
     "id": 7,
-    "name": "8.5 Watt Vintage Filament Medium Base LED Bulb ST18",
-    "image": ["", ""],
+    "name": "2 Pack Uplighting Indoor Spotlight with GU10 Bulbs 3000K/4000K/6000K Adjustable, Up Lights Indoor Floor Can Light, Plant Spot Lights Indoor with 5.9 FT Plug Cord & Foot Switch, White",
+    "image": ["/Spl/7.1.jpg", "/Spl/7.2.jpg", "/Spl/7.3.jpg"],
     "color": [
       {
         "value": "White",
@@ -162,15 +149,15 @@
         }
       }
     ],
-    "price": 14.00,
+    "price": 39.97,
     "productLink": "7",
-    "category": "Sl",
-    "description": "A stylish vintage filament LED bulb that provides a warm and inviting glow with modern efficiency."
+    "category": "Spl",
+    "description": "This dimmable indoor floor can light offers adjustable color temperatures, allowing you to switch between warm white (3000K), natural white (4000K), and cool white (6000K) to suit any mood or occasion. Featuring a sleek aluminum housing with a cylindrical design, it enhances the ambiance of your home, spotlighting wall art, plants, or trees. The upgraded floor can light includes a thin, stable base to prevent tipping and a hollow bottom design for a more attractive light effect. It comes with two 5W GU10 LED bulbs, but is also compatible with other GU10 bulbs. UL listed for durability and reliability, it includes a 5.9ft power cord with a convenient foot switch. Backed by a lifetime warranty, the light also comes with a 30-day money-back guarantee and 24-month limited warranty for peace of mind."
   },
   {
     "id": 8,
-    "name": "4 Watt E12 Candelabra Base LED Bulb",
-    "image": ["", ""],
+    "name": "2 Pack LED Spot Lights Indoor Spot Lights Indoor Accent Lighting, RGBW Color Changing Up Lights Indoor Remote Control Plant Spotlight Decorative Lights (Black)",
+    "image": ["/Spl/8.1.jpg", "/Spl/8.2.jpg", "/Spl/8.3.jpg"],
     "color": [
       {
         "value": "Black",
@@ -180,47 +167,47 @@
         }
       },
       {
-        "value": "Brown",
+        "value": "#CD9575",
         "style": {
-          "backgroundColor": "#A52A2A",
+          "backgroundColor": "#CD9575",
           "border": "1px solid #ccc"
         }
       }
     ],
-    "price": 6.00,
+    "price":28.99,
     "productLink": "8",
-    "category": "Dl",
-    "description": "A compact 4-watt LED bulb with a candelabra base, ideal for decorative fixtures requiring energy-efficient lighting."
+    "category": "Spl",
+    "description": "The upgraded RGBW uplighting indoor spotlights offer dimmable lighting with 16 selectable colors and 4 dynamic modes (flash, strobe, fade, and smooth). In addition, the built-in white LED chips provide bright, everyday white lighting with 8 levels of brightness for flexible ambiance control. The plug-and-play fixtures include a mounting base with two installation options: wall/ceiling mount or table/floor placement, and feature a 90° vertical and 350° horizontal adjustable angle for versatile lighting. The set includes two infrared remote controls for easy operation, allowing you to adjust color, brightness, and modes. Ideal for living rooms, bedrooms, art displays, indoor plants, and more, this lighting is perfect for creating a festive atmosphere for Christmas or Halloween. Backed by a lifetime warranty, a 30-day money-back guarantee, and 24-month replacement support, buy with confidence."
   },
   {
     "id": 9,
-    "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
-    "image": ["", ""],
+    "name": "Aisilan LED Indoor White Ceiling Spot Light 9W Surface Mounted Light Fixture with 360° Pivoting Spotlight, Dimmable Warm White 3000K CRI 97+ for Picture Panting Living Room Bedroom Accent Lighting",
+    "image": ["/Spl/9.1.jpg", "/Spl/9.2.jpg", "/Spl/9.3.jpg"],
     "color": [
-      {
-        "value": "Brown",
-        "style": {
-          "backgroundColor": "#A52A2A",
-          "border": "1px solid #ccc"
-        }
-      },
       {
         "value": "White",
         "style": {
           "backgroundColor": "#FFFFFF",
           "border": "1px solid #ccc"
         }
+      },
+      {
+        "value": "Black",
+        "style": {
+          "backgroundColor": "#000000",
+          "border": "1px solid #ccc"
+        }
       }
     ],
-    "price": 7.00,
+    "price": 46.99,
     "productLink": "9",
-    "category": "Dl",
-    "description": "Clear LED globe bulb that provides a clean and soft lighting effect with energy-efficient performance."
+    "category": "Spl",
+    "description": "The Aisilan LED Ceiling Spotlight offers dimmable triac technology with a wide range (10%-100%), ensuring seamless compatibility with dimmer switches. Crafted from durable aluminum with a sandblasted finish, it features an original, patent-protected design and a high light transmission polyester convex lens for optimal illumination. The unique off-axis design provides 360-degree three-dimensional rotation, making it perfect for accent lighting, highlighting artwork, or enhancing ambiance. Powered by a 9W LED chip (equivalent to a 90W incandescent bulb) with a 38° beam angle and a CRI of 97, it delivers accurate color representation, eye protection, and a 50,000-hour lifespan. Installation is simple with the included optional 4-inch electrical box cover—mount, connect, and secure for an efficient and stylish lighting solution."
   },
   {
     "id": 10,
-    "name": "No",
-    "image": ["", ""],
+    "name": "Small Spotlight Battery Operated Accent Light with Remote, RGB LED Wireless Little Spot Light Rotatable with Dimmer & Timer for Artwork Painting",
+    "image": ["/Spl/10.1.jpg", "/Spl/10.2.jpg", "/Spl/10.3.jpg", "/Spl/10.4.jpg"],
     "color": [
       {
         "value": "White",
@@ -228,57 +215,18 @@
           "backgroundColor": "#FFFFFF",
           "border": "1px solid #ccc"
         }
-      },
-      {
-        "value": "Black",
-        "style": {
-          "backgroundColor": "#000000",
-          "border": "1px solid #ccc"
-        }
       }
     ],
-    "price": 14.00,
+    "price": 19.99,
     "productLink": "10",
-    "category": "Dl",
-    "description": "A unique lighting option with a vintage filament design, perfect for stylish interiors."
+    "category": "Spl",
+    "description": "The cordless battery-operated indoor spotlights offer easy installation and convenience, featuring a remote control for on/off, dimming (10%-100%), and timer functions (30 or 60 minutes). Compact and versatile, these spotlights provide 60 lumens of warm white (3000K) and 12 RGB colors, perfect for accenting artwork, holiday decor, or creating mood lighting. The durable, rotatable metal head swivels 350° and tilts 200°, ideal for closets, cabinets, galleries, and more. Install easily with adhesive or screws on various surfaces. Backed by years of LED expertise, these spotlights ensure quality and reliable service."
   },
   {
     "id": 11,
-    "name": "4 Watt E12 Candelabra Base LED Bulb",
-    "image": ["", ""],
+    "name": "Solar Spot Lights Outdoor Waterproof 4 Pack IP65, 63 LED 3 Lighting Modes Spotlights for Yard Garden House Garage Pathway",
+    "image": ["/Spl/11.1.jpg", "/Spl/11.2.jpg", "/Spl/11.3.jpg"],
     "color": [
-      {
-        "value": "Black",
-        "style": {
-          "backgroundColor": "#000000",
-          "border": "1px solid #ccc"
-        }
-      },
-      {
-        "value": "Brown",
-        "style": {
-          "backgroundColor": "#A52A2A",
-          "border": "1px solid #ccc"
-        }
-      }
-    ],
-    "price": 6.00,
-    "productLink": "11",
-    "category": "Dl",
-    "description": "A 4-watt LED bulb with a candelabra base, providing energy-efficient lighting with a traditional design."
-  },
-  {
-    "id": 12,
-    "name": "6 Watt G25 Globe Medium Base LED Bulb - Clear",
-    "image": ["", ""],
-    "color": [
-      {
-        "value": "Brown",
-        "style": {
-          "backgroundColor": "#A52A2A",
-          "border": "1px solid #ccc"
-        }
-      },
       {
         "value": "White",
         "style": {
@@ -287,9 +235,196 @@
         }
       }
     ],
-    "price": 7.00,
+    "price": 29.99,
+    "productLink": "11",
+    "category": "Spl",
+    "description": "The AUDERWIN Solar Spotlight features 63 high-power LEDs emitting 6500K daylight, perfect for illuminating your garden, driveway, or home exterior. It offers 3 brightness modes, with High Light Mode operating at 100% brightness for 4 hours before gradually dimming. Equipped with efficient polycrystalline silicon solar panels for high energy conversion and durability, it ensures long-lasting performance. Its IP65 waterproof rating and robust ABS material withstand extreme weather conditions (-4℉~140℉). Easy to install as a landscape or wall light, it’s backed by a 12-month worry-free guarantee and friendly customer service."
+  },
+  {
+    "id": 12,
+    "name": "Kaxiida Solar Spot Lights Outdoor Waterproof, 3 Lighting Modes Solar Landscape Lights for Outside, 56LED Solar Powered Lights Dusk to Dawn Pack of 6",
+    "image": ["/Spl/12.1.jpg", "/Spl/12.2.jpg", "/Spl/12.3.jpg"],
+    "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 49.99,
     "productLink": "12",
-    "category": "Dl",
-    "description": "Energy-efficient clear LED globe bulb for a bright, inviting glow in any space."
+    "category": "Spl",
+    "description": "Solar spotlights with 56 LEDs and a 1200mAh battery deliver exceptional brightness and prolonged illumination. Powered by adjustable solar panels, they save energy while offering 3 lighting modes (dim, bright, highlight) for up to 10 hours. Featuring a 2-in-1 design, they can be ground-mounted or wall-mounted, ideal for gardens, patios, driveways, and more. Made with durable ABS and IP68 waterproofing, these lights withstand all weather conditions."
+  },
+  {
+    "id": 13,
+    "name": "LED Flood Light Outdoor 30W, 300W Equivalent 3000LM Smart RGB Landscape Lighting with APP Control, DIY Scenes - Timing - Warm White 2700K - Color Changing Uplight, IP66, US Plug MELPO(4 Pack)",
+    "image": ["/Spl/13.1.jpg", "/Spl/13.2.jpg", "/Spl/13.3.jpg"],
+    "color": [
+      
+      {
+        "value": "Black",
+        "style": {
+          "backgroundColor": "#000000",
+          "border": "1px solid #ccc"
+        }
+      }
+      
+    ],
+    "price": 69.99,
+    "productLink": "13",
+    "category": "Spl",
+    "description": "Smart Bluetooth floodlights (30W, 2700K warm white, 3000LM) offer 16 million colors, 23 dynamic modes, and app control via Bluetooth 5.0. Features include group/single control, timing function, synchronization, and customizable DIY scenes for versatile use in daily, decorative, and security lighting. Ideal for events like parties, weddings, and holidays. Easy setup, no registration or internet needed. Backed by a 2-year warranty and 90-day money-back guarantee."
+  },
+  {
+    "id": 14,
+    "name": "INSDEA 8200W Solar Street Light Motion Sensor, 820000LM Dusk to Dawn Solar Flood Lights Outdoor Waterproof, LED Solar Security Lights for Outside Garden YAard Path Parking Lot",
+    "image": ["/Spl/14.1.jpg", "/Spl/14.2.jpg", "/Spl/14.3.jpg"],
+    "color": [
+      
+      {
+        "value": "Black",
+        "style": {
+          "backgroundColor": "#000000",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 149.98,
+    "productLink": "14",
+    "category": "Spl",
+    "description": "The 8200W solar street light provides 820,000LM brightness with 5730 LED lamp beads and a 50,000mAh battery, offering 15–24 hours of illumination after 6–10 hours of charging. It features 3 lighting modes: motion sensor, timed lighting, and adjustable always-on brightness. Easy to install with no wiring required, it's suitable for walls, trees, or poles (1.5–4 inches diameter). With IP66 waterproofing and resistance to harsh weather, it includes light-sensing automation, a 25-ft remote control, and 365-day operation. Comes with a 60-day replacement and 12-month after-sales service."
+  },
+  {
+    "id": 15,
+    "name": "LED Flood Light 50W/40W/30W, 3CCT 3000K/4000K/5000K Selectable, Dusk-to-Dawn Photocell, IP65 Waterproof Adjustable Knuckle Mount Security Lights, 100-277V ETL Listed, White",
+    "image": ["/Spl/15.1.jpg", "/Spl/15.2.jpg", "/Spl/15.3.jpg"],
+    "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 49.99,
+    "productLink": "15",
+    "category": "Spl",
+    "description": "The adjustable LED flood light offers 50W/40W/30W brightness levels, producing up to 6500 lumens with a high efficacy of 130lm/W. It features 3 color temperatures (3000K, 4000K, 5000K) to suit various outdoor settings. An optional dusk-to-dawn photocell automates operation based on ambient light. Made of durable, corrosion-resistant aluminum, it includes a 180° adjustable arm and a 120° wide beam angle, perfect for ground, wall, or eave installation. Backed by a 5-year warranty, it's ideal for security, gardens, driveways, and more."
+  },
+  {
+    "id": 16,
+    "name": "Halloween Christmas Spotlight Outdoor: 12W RGBW LED Spot Lights Outdoor with 16 Color Changing for Yard Garden Decor | 4 Pack of IP65 Waterproof 120V Plug in Landscape Lighting with Remote",
+    "image": ["/Spl/16.1.jpg", "/Spl/16.2.jpg", "/Spl/16.3.jpg"],
+    "color": [
+     
+      {
+        "value": "Black",
+        "style": {
+          "backgroundColor": "#000000",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 49.99,
+    "productLink": "16",
+    "category": "Spl",
+    "description": "These RGBW outdoor spotlights feature premium SMD LED chips for high brightness, low energy consumption, and long lifespan (up to 50,000 hours). They offer 16 static colors, warm white, 4 dynamic modes, and 3 brightness levels, adjustable via RF remote with memory function for convenience. The IP65 weather-resistant design ensures durability in extreme conditions. Easy to install with a 5ft cord and US standard plug, they can be ground-inserted or wall-mounted. Backed by a 365-day money-back or free-replacement warranty."
+  },
+  {
+    "id": 17,
+    "name": "Onforu 2 Pack 60W Flood Lights Outdoor, 6000LM LED Flood Light Outdoor Switch Controlled, IP65 Waterproof Outdoor Flood Light Fixture with 3 Adjustable Heads, 6500K Security Light for Eave Garage Yard",
+    "image": ["/Spl/17.1.jpg", "/Spl/17.2.jpg", "/Spl/17.3.jpg"],
+    "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      },
+      {
+        "value": "Black",
+        "style": {
+          "backgroundColor": "#000000",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 53.34,
+    "productLink": "17",
+    "category": "Spl",
+    "description": "The 60W Onforu LED floodlight delivers 6000 lumens of brightness, equivalent to 400W traditional bulbs, saving 85% on energy costs. Featuring 3 adjustable light heads with 270° coverage, it ensures a wide illumination range. Operated via wall switch, it lacks motion sensors or solar/dusk-to-dawn functions. Made of durable aluminum with efficient heat dissipation, it offers a long lifespan. Its IP65 waterproof rating makes it ideal for outdoor use in all weather conditions, perfect for garages, yards, and parking areas."
+  },
+  {
+    "id": 18,
+    "name": "Beams MB390 400 Lumen Wireless Battery Powered Motion Sensing Ultra Bright LED Spotlight, 2-Pack, Brown",
+    "image": ["/Spl/18.1.jpg", "/Spl/18.2.jpg", "/Spl/18.3.jpg"],
+    "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      },
+      {
+        "value": "#CD9575",
+        "style": {
+          "backgroundColor": "#CD9575",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 24.99,
+    "productLink": "18",
+    "category": "Spl",
+    "description": "This ultra-bright LED spotlight provides 400 lumens of outdoor security lighting with minimal power consumption. The motion sensor automatically activates the light when needed. Designed for any climate, it features a weatherproof build for durability. Easy to install without the need for an electrician, the spotlight comes with mounting hardware. Each LED light covers up to 400 square feet and operates on four D-Cell batteries (not included)."
+  },
+  {
+    "id": 19,
+    "name": "Beams MB390 400 Lumen Wireless Battery Powered Motion Sensing Ultra Bright LED Spotlight, 2-Pack, Brown",
+    "image": ["/Spl/19.1.jpg", "/Spl/19.2.jpg", "/Spl/19.3.jpg"],
+    "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      },
+      {
+        "value": "Black",
+        "style": {
+          "backgroundColor": "#000000",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 24.99,
+    "productLink": "19",
+    "category": "Spl",
+    "description": "This next-generation battery-powered LED spotlight delivers 200 lumens of bright outdoor lighting. Its unique reflective face spreads the light for wider coverage, ideal for large areas. The durable, weatherproof design ensures reliable performance outdoors. With motion activation, auto shut-off, and a light sensor, it helps prolong battery life, offering about 1 year of light with average use of 8-10 activations per day. Easy to install wirelessly in under 5 minutes, with no electrician required, making it perfect for anywhere around the home and yard."
+  },
+  {
+    "id": 20,
+    "name": "Solar Spot Lights Outdoor Waterproof 4 Pack IP65, 63 LED 3 Lighting Modes Spotlights for Yard Garden House Garage Pathway",
+    "image": ["/Spl/20.1.jpg", "/Spl/20.2.jpg", "/Spl/20.3.jpg", "/Spl/20.4.jpg"],
+    "color": [
+      {
+        "value": "White",
+        "style": {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #ccc"
+        }
+      }
+    ],
+    "price": 29.99,
+    "productLink": "20",
+    "category": "Spl",
+    "description": "The AUDERWIN Solar Spotlight features 63 high-power LEDs that emit bright 6500K daylight, perfect for illuminating front doors, gardens, driveways, walkways, trees, fences, and houses. It offers three brightness modes: low (24hrs), medium (18hrs), and high (12hrs), with the high mode operating at 100% brightness for 4 hours, then dimming to 40% for 2 hours, and finally to 20%. The polycrystalline silicon solar panels have a 25% energy conversion rate and a longer lifespan. With IP65 waterproof rating, it performs well in all weather conditions, from rain to snow, and operates in temperatures from -4℉ to 140℉. Installation is easy, and it can function as either a landscape or wall light. The product includes a 12-month warranty and friendly customer service."
   }
 ]

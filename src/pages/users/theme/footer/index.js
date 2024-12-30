@@ -57,7 +57,7 @@ const Footer = () => {
                   <Link to="/Contract-us">Contact Us</Link>
                 </li>
                 <li>
-                  <Link to="/Customer-Help">FQA</Link>
+                  <Link to="/Customer-Help">FAQ</Link>
                 </li>
               </ul>
             </div>
@@ -123,7 +123,7 @@ const Footer = () => {
             <Link to="#">Privacy Policy</Link> |
             <Link to="#">Terms & Conditions</Link> |
             <Link to="#">Accessibility</Link> |<Link to="#">CCPA Policy</Link> |
-            <Link to="#">Sitemap</Link> |<Link to="#">Cookie Preferences</Link>
+            <Link to="/Site-Map">Sitemap</Link> |<Link to="#">Cookie Preferences</Link>
           </p>
         </div>
       </div>

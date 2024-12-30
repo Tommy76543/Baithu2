@@ -1,6 +1,7 @@
 import React, { memo, useState, useEffect } from "react";
 import "./imgstyle.css";
 import ProductList from "../../../component/ProductlistRandom/ProductList.jsx";
+import ProductCarousel from "../../../component/ProductlistRandom/ProductList.jsx";
 
 const HomePage = () => {
   const [slideIndex, setSlideIndex] = useState(1);
@@ -156,7 +157,7 @@ const HomePage = () => {
       )}
 
       <div class="custom-con">
-        <ProductList />
+        <ProductCarousel />
       </div>
     </div>
   );

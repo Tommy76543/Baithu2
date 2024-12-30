@@ -22,7 +22,7 @@ const AboutUs = () => {
       <div className="column left"></div> {/* Left column (empty) */}
 
       <div className="column center">
-<<<<<<< HEAD
+
         <div class="header1">
           <div >
             <h1 class="chu1">Chic Light & Design – Illuminating Style, Elevating Spaces</h1>
@@ -36,7 +36,7 @@ const AboutUs = () => {
 =======
         <h1>About Chic Lighting & designnn</h1>
         <p>Established in 1971, Chic Lighting & Design has been a trusted name in the lighting industry for over five decades. Our journey began with a simple yet ambitious vision: to offer an unparalleled range of lighting solutions that cater to diverse styles and preferences. Over the years, we have grown into a leading retailer of distinctive lighting and accessories, earning a reputation for excellence in both product quality and customer service.</p>
->>>>>>> d2c5c5c51da93451f7f5394400c2a04d1dc1f1a2
+
 
         </div>
         <div class="header2">

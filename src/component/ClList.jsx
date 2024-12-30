@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate từ react-router-dom
-import products from "./TotHop.json"; // Thêm đúng đường dẫn đến tệp JSON
+import products from "./ProductList.json"; // Thêm đúng đường dẫn đến tệp JSON
 import "./Productstyle.css";
 import ProductCarousel from "./ProductlistRandom/ProductList";
 

@@ -18,6 +18,7 @@ import OutList from "./component/OutList";
 import LamList from "./component/LamList";
 import WallList from "./component/WallList";
 import Create from "./pages/users/Create";
+import SiteMap from "./pages/Site-Map";
 
 
 const renderUserRouter =()=> {
@@ -87,6 +88,10 @@ const renderUserRouter =()=> {
         {
             path: ROUTERS.USER. CREATE,
             component: <Create/>,
+        },
+        {
+            path: ROUTERS.USER. SITEMAP,
+            component: <SiteMap/>,
         },
         
     ]

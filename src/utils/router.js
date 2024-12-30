@@ -17,6 +17,6 @@ export const ROUTERS ={
         FANS:"/Fans",
         DECO:"/Home-Accents",
         CREATE:"/Create",
-        
+        SITEMAP:"/Site-Map",
     }
 }

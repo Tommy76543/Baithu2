@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import products from "../ProductList.json";
 import "./ProductListstyle1.css";
 
 const ProductCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerPage = 9; // Số lượng sản phẩm hiển thị cùng lúc
-
+  const navigate = useNavigate(); // Khởi tạo useNavigate
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex + itemsPerPage >= products.length ? 0 : prevIndex + itemsPerPage
@@ -24,6 +25,10 @@ const ProductCarousel = () => {
     currentIndex,
     currentIndex + itemsPerPage
   );
+  // Hàm xử lý khi người dùng nhấp vào nút sản phẩm
+  const handleProductClick = (productLink) => {
+    navigate(`/products/${productLink}`); // Điều hướng đến trang sản phẩm
+  };
 
   return (
     <div>
@@ -36,9 +41,9 @@ const ProductCarousel = () => {
       <div className="product-list coumle">
         {visibleProducts.map((product, index) => (
           <div className="product-item" key={index}>
-            <a href={product.productLink}>
+            <button  key={index} onClick={() => handleProductClick(product.productLink)} >
               <img src={product.image[0]} alt={product.name} />
-            </a>
+            
             <h3 className="product-name">{product.name}</h3>
             <div className="product-colors">
               {product.colors &&
@@ -51,9 +56,13 @@ const ProductCarousel = () => {
                 ))}
             </div>
             <p className="product-price">${product.price.toFixed(2)}</p>
+            </button>
           </div>
+          
         ))}
+        
       </div>
+      
       <button className="carousel-button next" onClick={nextSlide}>
         &#10095;
       </button>

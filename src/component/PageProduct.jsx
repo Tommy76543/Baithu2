@@ -59,7 +59,7 @@ const ProductDetail = () => {
         <div className="product-detail">
           <div className="image-gallery">
             <img
-              src={selectedImage}
+              src={`${process.env.PUBLIC_URL}${selectedImage}`}
               alt={product.name}
               className="main-image Page-img"
             />
@@ -67,7 +67,7 @@ const ProductDetail = () => {
               {product.image.map((imgUrl, index) => (
                 <img
                   key={index}
-                  src={imgUrl}
+                  src={`${process.env.PUBLIC_URL}${imgUrl}`}
                   alt={`Thumbnail ${index}`}
                   className={`thumbnail-image ${selectedImage === imgUrl ? 'active' : ''}`}
                   onClick={() => setSelectedImage(imgUrl)}

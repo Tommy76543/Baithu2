@@ -42,7 +42,7 @@ const ProductCarousel = () => {
         {visibleProducts.map((product, index) => (
           <div className="product-item" key={index}>
             <button  key={index} onClick={() => handleProductClick(product.productLink)} >
-              <img src={product.image[0]} alt={product.name} />
+              <img src={`${process.env.PUBLIC_URL}${product.image[0]}`} alt={product.name} />
             
             <h3 className="product-name">{product.name}</h3>
             <div className="product-colors">
